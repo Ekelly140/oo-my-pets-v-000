@@ -60,7 +60,7 @@ class Owner
   
   def sell_pets
     self.pets.each do |pets| 
-       binding.pry
+       
       pets.clear 
       end 
    
