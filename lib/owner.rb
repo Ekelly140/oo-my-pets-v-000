@@ -68,7 +68,7 @@ class Owner
   end 
   
   def list_pets
-    self.pets.each {|pet, animal| puts animal}
+    "I have #{self.pets[:fishes].length}"
   end
 
 
