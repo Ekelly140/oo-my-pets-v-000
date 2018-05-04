@@ -66,6 +66,10 @@ class Owner
     self.pets.clear 
    
   end 
+  
+  def list_pets
+    self.pets.each {|pet, animal| puts animal}
+  end
 
 
 end
